@@ -1,0 +1,16 @@
+<Solution>
+  <Folder Name="/Solution Items/">
+    <File Path=".editorconfig" />
+    <File Path=".gitattributes" />
+    <File Path=".gitignore" />
+    <File Path="Directory.Build.props" />
+    <File Path="Directory.Packages.props" />
+    <File Path="global.json" />
+    <File Path="LICENSE" />
+    <File Path="NuGet.config" />
+    <File Path="README.md" />
+  </Folder>
+  <Project Path="DeferredTransactions/Core.csproj" />
+  <Project Path="DeferredTransactions.EntityFrameworkCore/EntityFrameworkCore.csproj" />
+  <Project Path="DeferredTransactions.Tests/Tests.csproj" />
+</Solution>

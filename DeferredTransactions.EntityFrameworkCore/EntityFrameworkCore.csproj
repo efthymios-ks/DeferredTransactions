@@ -1,0 +1,23 @@
+<Project Sdk="Microsoft.NET.Sdk">
+	<PropertyGroup>
+		<RootNamespace>DeferredTransactions.EntityFrameworkCore</RootNamespace>
+		<AssemblyName>DeferredTransactions.EntityFrameworkCore</AssemblyName>
+		<IsPackable>true</IsPackable>
+		<PackageId>DeferredTransactions.EntityFrameworkCore</PackageId>
+		<Description>Entity Framework Core store for DeferredTransactions.</Description>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<PackageReference Include="Microsoft.EntityFrameworkCore" />
+		<PackageReference Include="Microsoft.EntityFrameworkCore.Relational" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<ProjectReference Include="..\DeferredTransactions\Core.csproj" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<InternalsVisibleTo Include="DeferredTransactions.Tests" />
+		<InternalsVisibleTo Include="DynamicProxyGenAssembly2" />
+	</ItemGroup>
+</Project>
